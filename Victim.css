@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
 body {
-	background: url("https://static.pexels.com/photos/110143/pexels-photo-110143.jpeg");
+	background: url("http://cdn.wallpapersafari.com/92/64/AbiuEv.jpg");
 }
 
 #outlet {
@@ -14,11 +14,16 @@ body {
 }
 .example{
      color:white;
+     padding:20px;
+     text-align:left;
+     font-size:20px;
 }
 .examples{
      font-family:fjalla one; 
-     border:solid black;
+     border:solid white;
      border-width:10px;
+     color:white;
+     font-size: 30px;
 }
 .list {
 	font-family: cormorant infant;
@@ -36,7 +41,8 @@ body {
 .center {
 	text-align: center;
 	font-family: ubuntu;
-	font-size: 60px;
+	font-size: 50px;
+	color:white;
 }
 
 .heart {
