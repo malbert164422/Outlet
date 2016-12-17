@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body {
+    background: url("http://eskipaper.com/images/yellow-background-8.jpg")no-repeat;
+    }
+#outlet {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: purple;
+    font-family: 'dancing script', cursive;
+}
+
+textarea {
+    width: 150px;
+    height: 100px;
+}
+
+ol {
+    color: purple;
+    font-size: 20px;
+}
+
+#submitions {}
+
+#title {
+    font-size: 45px;
+    border: 20px;
+    border-color: white;
+}
+
+#menu-nav {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin: 30px 0px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#navigation-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#navigation-bar li {
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    display: inline-block;
+}
+
+#navigation-bar a {
+    color: #848484;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#navigation-bar a:hover {
+    color: DeepSKyBlue;
+}
+
+#navigation-bar a:before {
+    content: '';
+    transition: all .4s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    display: block;
+    height: 2px;
+    background-color: green;
+}
+
+#navigation-bar li:hover a:before,
+#navigation-bar a:hover:before {
+    right: 0;
+    left: 0;
+}
+
+#navigation-bar span {
+    display: block;
+}
+
+#container {
+    padding: 40px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #ff0000 blue green yellow
+}
+
+.list2 {
+    color: white;
+}
+
+#button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: red;
+    width: 45px;
+}
+
+.submission {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box {
+    background: #fff;
+    font-size: 16px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 0 5px 3px -2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+label {
+    font-family: "Montserrat";
+    border-bottom: 1px solid grey;
+    display: block;
+    padding-bottom: 10px;
+}
+
+p>span {
+    font-weight: bold;
+}
+
+p,
+ol {
+    line-height: 1.2em;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto 5px;
+}
+
+#box2 {
+    background: #fff;
+    font-size: 16px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 0 5px 3px -2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+label {
+    font-family: "Montserrat";
+    border-bottom: 1px solid grey;
+    display: block;
+    padding-bottom: 10px;
+}
+
+p>span {
+    font-weight: bold;
+}
+
+p,
+ol {
+    line-height: 1.2em;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto 5px;
+}
+
+.Seprate {
+    border-style: solid;
+    border-color: DeepSkyBlue;
+}
+
+#story {
+    text-align: left;
+    font-size: 20px;
+    padding:50px;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+}
+
+#example {
+    color: black;
+    font-size:45px;
+    text-align:left;
+}
+
+#button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 45px;
+}
